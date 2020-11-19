@@ -1,0 +1,213 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+/*No media query for `xs` since this is the default in Bootstrap*/
+@media (min-width: 576px) {
+	.home-title_foto{
+		height: 7rem;
+		width: 7rem;
+	}
+	.home-title_foto img{
+		width: 5rem;
+	}
+}
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+	.body-welcome form{
+		width: 70vw;
+	}
+	.inscribircurso-form input:first-child{
+		width: auto;
+	}
+	.home-title_foto{
+		height: 7rem;
+		width: 7rem;
+	}
+	.home-title_foto img{
+		width: 5rem;
+	}
+	.home-cursos .card h2{
+		font-size: 1.8rem;
+	}
+	.home-cursos .card h3{
+		font-size: 1.2rem;
+	}
+	.home-cursos .card .card-text{
+		font-size: 1.2rem;
+	}
+	.cursos-card_header{
+		width: 68%;
+	}
+	.card-icon{
+		position: absolute;
+		right: 1rem;
+	}
+	.home-cursos_titulo img{
+		width: 6rem;
+	}
+}
+
+/*Medium devices (tablets, 768px and up)*/
+/*IPAD MINI VERTICAL*/
+@media (min-width: 768px) { 
+	html{
+		font-size: 110%;
+	}
+	.btn{
+		width: 12rem;
+		font-size: 1.1rem;
+	}
+	.btn, #submit{
+		font-size: 1rem;
+	}
+	.body-welcome form input, form input, .body-welcome label, textarea{
+		font-size: .9rem;
+	}
+	.body-welcome label{
+		font-size: 1.2rem;
+	}
+	.home-title_text a{
+		font-size: 1.3rem;
+	}
+	h1{
+		font-size: 1.7rem;
+	}
+	form a[id="form-label-link"]{
+		font-size: .9rem;
+	}
+	.home-cursos .card h2{
+		font-size: 1.4rem;
+	}
+	.home-cursos .card h3{
+		font-size: 1.1rem;
+	}
+	.home-cursos .card .card-text{
+		font-size: 1rem;
+	}
+	.cursos-card_header{
+		width: 68%;
+	}
+	.card-icon{
+		right: .8rem;
+	}
+	.home-cursos_titulo img{
+		width: 6rem;
+	}
+	.home-sincursos img{
+		height: 7rem;
+	}
+	.main-crear-curso div form{
+		width: 70%;
+	}
+	.cursos-index .card h2{
+		font-size: 1.5rem;
+	}
+	.cursos-index .card h3{
+		font-size: 1.1rem;
+		line-height: .8;
+	}
+	.cursos-index .card-entregar{
+		font-size: 1rem;
+	}
+	.cursos-index .card .card-text{
+		font-size: 1.2rem;
+	}
+	.cursoadmin-index_botones {
+		justify-content: flex-start;
+	}
+}
+
+/*Large devices (desktops, 992px and up)*/
+/*IPAD MINI HORIZONTAL*/
+@media (min-width: 992px) {
+	.body-welcome form{
+		width: 50vw;
+	}
+	.home-cursos .card h2{
+		font-size: 1.4rem;
+	}
+	.home-cursos .card h3{
+		font-size: 1.1rem;
+	}
+	.home-cursos .card .card-text{
+		font-size: 1rem;
+	}
+	.cursos-card_header{
+		width: 65%;
+	}
+	.card-icon{
+		right: .6rem;
+	}
+	.home-cursos_titulo img{
+		width: 5rem;
+	}
+	.main-crear-curso div form{
+		width: 50%;
+	}
+	
+	.entregas{
+		width: 70vw;
+	}
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+/*LAPTOP*/
+@media (min-width: 1200px) { 
+	html{
+		font-size: 85%;
+	}
+	.welcome-foto{
+		width: 12rem;
+		height: 12rem;
+		border-radius: 6rem;
+	}
+	h1{
+		font-size: 2rem;
+	}
+	.btn{
+		width: 14rem;
+		font-size: 1.2rem;
+		font-weight: 500;
+		padding: 8px 0;
+	}
+	.btn-secondary{
+		font-weight: 400;
+	}
+	.body-welcome form{
+		width: 30vw;
+	}
+	.body-welcome form input, form input, textarea{
+		font-size: 1.1rem;
+	}
+	#submit{
+		font-size: 1.2rem;
+	}
+	.home-cursos .card h2{
+		font-size: 1.6rem;
+	}
+	.home-cursos .card h3{
+		font-size: 1.2rem;
+	}
+	.home-cursos .card .card-text{
+		font-size: 1.1rem;
+	}
+	.cursos-card_header{
+		width: 70%;
+	}
+	.card-icon{
+		right: .6rem;
+	}
+	.home-cursos_titulo img{
+		width: 5rem;
+	}
+	.home-sincursos h2{
+		font-size: 2rem;
+	}
+	.home-sincursos img{
+		height: 8rem;
+	}
+	.main-crear-curso div form{
+		width: 40%;
+	}
+	.entregas{
+		width: 60vw;
+	}
+}

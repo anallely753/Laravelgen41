@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/mediaqueries.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+	rel="stylesheet">
+	<!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Neucha&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+	<title>DW - Gen 41</title>
+</head>
+<body class="body-crear-curso center">
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light px-lg-5 py-2">
+			<a class="navbar-brand d-flex pl-xl-5 " href="index.html">
+				<i class="material-icons">night_shelter</i>
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarTogglerDemo01" class="pr-5">
+				<ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+					<li class="nav-item active">
+						<a class="nav-link" href="home.html">Tareas <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href="cal.html">Calificaciones <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item dropdown mr-4">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Anallely
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="perfil.html">Perfil</a>
+							<a class="dropdown-item" href="tareas-index.html">Admin</a>
+							<a class="dropdown-item" href="logout">Cerrar sesión</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	<main class="container main-crear-curso text-md-center">
+		<!-- Title -->
+		<h1 class="mt-4 mt-sm-5 text-purple mb-xl-4">Sube aquí tu archivo</h1>
+		<img class="subir-archivo_img" src="img/ToyFace14.png" alt="">
+		<div class="mt-md-4 mt-4">
+			<form class="mx-md-auto" action="">
+				<input type="file" name="file" enctype required>
+			    <input type="text" class="d-none" name="tarea_id">
+				<input type="submit"  id="submit" class="btn btn-primary bg-yellow text-dark">
+			</form>
+		</div>
+	</main>
+</body>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</html>
